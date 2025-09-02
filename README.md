@@ -2,7 +2,7 @@
 
 This repository contains the implementation and research artifacts for a thesis project on **automating customer email handling in Asset Management Companies (AMCs)** using **machine learning and natural language processing (NLP)**. The solution focuses on hierarchical email classification and entity extraction, integrated into customer service workflows.  
 
-## 📌 Features  
+## Features  
 - **Hierarchical Classification (4 Levels):**  
   - Type → Area → Sub Area → Child Sub Area  
 - **Transformer-based Models:**  
@@ -16,7 +16,7 @@ This repository contains the implementation and research artifacts for a thesis 
 - **Synthetic + Realistic Dataset:**  
   - Custom-built dataset simulating AMC email traffic  
 
-## 📂 Repository Structure  
+## Repository Structure  
 ```bash
 ├── NewData.csv/                      # Datasets (synthetic + CSV files)
 │   Email_Classification Model for AMC.ipynb
@@ -25,7 +25,7 @@ This repository contains the implementation and research artifacts for a thesis 
 └── LICENSE                    # License file
 ```
 
-## ⚙️ Installation  
+## Installation  
 1. Clone this repository:  
    ```bash
    git clone https://github.com/hrithik-singh07/AI-Email-Classification-Information-Retrival-Model.git
@@ -36,7 +36,7 @@ This repository contains the implementation and research artifacts for a thesis 
    pip install -r requirements.txt
    ```
 
-## 🚀 Usage  
+## Usage  
 1. Open the cleaned notebook:  
    ```bash
    jupyter notebook notebooks/Email_Classification_Cleaned.ipynb
@@ -47,7 +47,7 @@ This repository contains the implementation and research artifacts for a thesis 
    - Train and evaluate models  
    - Visualize results  
 
-## 📊 Results  
+## Results  
 - **Top-Level Classification (Type):** Macro F1 = 0.89  
 - **Fine-Grained (Child Sub Area):** Macro F1 = 0.95  
 - **Interpretability:** SHAP confirmed domain-specific feature importance  
@@ -56,9 +56,9 @@ This repository contains the implementation and research artifacts for a thesis 
 This repository supports the thesis:  
 *“Automating Email Classification and Entity Extraction in Asset Management Companies using Transformer-based NLP Models”*  
 
-## 🙏 Acknowledgements  
+## Acknowledgements  
 - OpenAI **ChatGPT** was used for commenting, documentation, and code refactoring support.  
 - NLTK, Scikit-learn, XGBoost, and SHAP libraries for implementation.  
 
-## 📜 License  
+## License  
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.  
