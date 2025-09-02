@@ -18,11 +18,8 @@ This repository contains the implementation and research artifacts for a thesis 
 
 ## 📂 Repository Structure  
 ```bash
-├── data/                      # Datasets (synthetic + CSV files)
-├── notebooks/                 # Jupyter notebooks with model pipeline
-│   ├── Email_Classification_Cleaned.ipynb
-├── models/                    # Trained model artifacts (if stored)
-├── src/                       # Utility scripts (preprocessing, training, evaluation)
+├── NewData.csv/                      # Datasets (synthetic + CSV files)
+│   Email_Classification Model for AMC.ipynb
 ├── requirements.txt           # Dependencies
 ├── README.md                  # Project overview (this file)
 └── LICENSE                    # License file
