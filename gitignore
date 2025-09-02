@@ -1,0 +1,36 @@
+# Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environment
+.env/
+.venv/
+env/
+venv/
+
+# Data files (keep only small sample datasets in repo)
+data/*.csv
+!data/sample.csv
+
+# Model artifacts
+models/*.h5
+models/*.pkl
+models/*.joblib
+
+# Logs and outputs
+*.log
+*.out
+
+# System files
+.DS_Store
+Thumbs.db
+
+# VSCode and IDE configs
+.vscode/
+.idea/
